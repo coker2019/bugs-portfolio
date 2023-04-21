@@ -25,10 +25,10 @@ mobileList.forEach((link) => {
 // Form validation
 
 const form = document.getElementById('contact-form');
-form.addEventListener('submit', (event) => {
+form.addEventListener('', (event) => {
   const errorMsg = document.getElementById('error');
   const email = form.elements[1].value;
-  if (email.toLowerCase() !== email) {
+  if (email.toLowerCase() != email) {
     errorMsg.style.display = 'block';
     errorMsg.style.fontSize = '1rem';
     errorMsg.style.color = '#fff';
